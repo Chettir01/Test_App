@@ -1,0 +1,11 @@
+{
+  "name": "Test_App",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "dev": "parcel --public-url / src/main/resources/app/index.html --out-dir target/classes/static",
+    "build": "parcel build --public-url / src/main/resources/app/index.html --out-dir target/classes/static",
+    "watch": "parcel watch --public-url / src/main/resources/app/index.html --out-dir target/classes/static --no-hmr"
+  }
+}
